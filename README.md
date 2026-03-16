@@ -32,7 +32,7 @@
     pip install packaging
     pip install h5py
     pip install ipython
-    cd act/detr && pip install -e .
+    cd MuJoCo-Sim-GIT/detr && pip install -e .
 
 ### Example Usages
 
