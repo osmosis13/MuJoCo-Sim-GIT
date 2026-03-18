@@ -5,30 +5,30 @@ DATA_DIR = '/home/osmosis13/1_MuJoCo-Sim-GIT/first_test'
 SIM_TASK_CONFIGS = {
     'sim_transfer_cube_scripted':{
         'dataset_dir': DATA_DIR + '/sim_transfer_cube_scripted',
-        'num_episodes': 44,
+        'num_episodes': 50,
         'episode_len': 400,
-        'camera_names': ['angle', 'right_wrist']
+        'camera_names': ['angle']
     },
 
     'sim_transfer_cube_human':{
         'dataset_dir': DATA_DIR + '/sim_transfer_cube_human',
         'num_episodes': 50,
         'episode_len': 400,
-        'camera_names': ['angle', 'right_wrist']
+        'camera_names': ['angle']
     },
 
     'sim_insertion_scripted': {
         'dataset_dir': DATA_DIR + '/sim_insertion_scripted',
         'num_episodes': 50,
         'episode_len': 400,
-        'camera_names': ['angle', 'right_wrist']
+        'camera_names': ['angle']
     },
 
     'sim_insertion_human': {
         'dataset_dir': DATA_DIR + '/sim_insertion_human',
         'num_episodes': 50,
         'episode_len': 500,
-        'camera_names': ['angle', 'right_wrist']
+        'camera_names': ['angle']
     },
 
     'sim_throw_and_catch_scripted': {
